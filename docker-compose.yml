@@ -1,0 +1,14 @@
+version: '3'
+
+
+services:
+  athena:
+    build:
+      context: ./docker/athena
+      dockerfile: Dockerfile
+    ports:
+      - "8010:8080"
+    env_file:
+      - ./docker/athena/.env
+    networks:
+      - new_bcc

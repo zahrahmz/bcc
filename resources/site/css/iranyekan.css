@@ -1,0 +1,46 @@
+@font-face {
+  font-family: IranYekan;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/iranyekan/eot/iranyekanwebboldfanum.eot");
+  src: url("../fonts/iranyekan/woff/iranyekanwebboldfanum.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/iranyekan/ttf/iranyekanwebboldfanum.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: IranYekan;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/iranyekan/eot/iranyekanwebregularfanum.eot");
+  src: url("../fonts/iranyekan/woff/iranyekanwebregularfanum.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/iranyekan/ttf/iranyekanwebregularfanum.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IranYekan;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/iranyekan/eot/iranyekanwebmediumfanum.eot");
+  src: url("../fonts/iranyekan/woff/iranyekanwebmediumfanum.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/iranyekan/ttf/iranyekanwebmediumfanum.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: IranYekan;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/iranyekan/eot/iranyekanweblightfanum.eot");
+  src: url("../fonts/iranyekan/woff/iranyekanweblightfanum.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/iranyekan/ttf/iranyekanweblightfanum.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: IranYekan;
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/iranyekan/eot/iranyekanwebextraboldfanum.eot");
+  src: url("../fonts/iranyekan/woff/iranyekanwebextraboldfanum.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/iranyekan/ttf/iranyekanwebextraboldfanum.ttf") format("truetype");
+}

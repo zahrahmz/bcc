@@ -1,0 +1,34 @@
+.svg-icon {
+  background: url("../images/svg-icons.svg");
+  display: inline-block;
+}
+
+.svg-icon-cart {
+  background-position: 92.78350515% 42.60818713%;
+  height: 23px;
+  width: 22px;
+}
+
+.svg-icon-heart {
+  background-position: 91.83673469% 54.15819209%;
+  height: 17px;
+  width: 20px;
+}
+
+.svg-icon-phone {
+  background-position: 23.94318182% 98.03285074%;
+  height: 39.97px;
+  width: 40px;
+}
+
+.svg-icon-phone-square {
+  background-position: 90.90909091% 74.35227273%;
+  height: 18px;
+  width: 18px;
+}
+
+.svg-icon-user {
+  background-position: 90.90909091% 64.125%;
+  height: 18px;
+  width: 18px;
+}
