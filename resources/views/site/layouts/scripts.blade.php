@@ -4,6 +4,10 @@
 {{--<script src="{{ asset('site/js/jquery.elevateZoom-3.0.8.min.js')}}"></script>--}}
 <script src="{{ asset('site/js/fotorama.js')}}"></script>
 <script src="{{ asset('site/js/owl.carousel.min.js')}}"></script>
+
+<script src="https://static.neshan.org/sdk/leaflet/1.4.0/leaflet.js" type="text/javascript"></script>
+
 <script src="{{ asset('site/js/scripts.js')}}"></script>
 <script src="{{ asset('site/js/helper.js')}}"></script>
+
 @stack('scripts')

@@ -31,13 +31,14 @@ $(document).ready(function () {
     // }
 
 
-    $(".quantity-input").each(function(){
-        $(this).find("input").on('change',function () {
-        let value = $(this).val();
-        if (value < 1) {
-            $(this).val(1);
-        }
-    })});
+    $(".quantity-input").each(function () {
+        $(this).find("input").on('change', function () {
+            let value = $(this).val();
+            if (value < 1) {
+                $(this).val(1);
+            }
+        })
+    });
 
     if ($(window).width() < 768) {
         $('#openMobileSearch').on('click', function () {
@@ -56,7 +57,7 @@ $(document).ready(function () {
             $('#filters').toggleClass('d-block');
             $(this).find('.fas').toggleClass('rotate-180');
         })
-        $('#dashboardMenuBtn').on('click', function(){
+        $('#dashboardMenuBtn').on('click', function () {
             $('#dashboardMenu').toggleClass('d-block');
             $(this).find('.fas').toggleClass('rotate-180');
         });
@@ -145,21 +146,23 @@ $(document).ready(function () {
             $('#mobileNav').css('top', offset).addClass('w-100');
         }
     });
-    $(".product-quantity-minus").each(function(){
-        $(this).on('click',function () {
+    $(".product-quantity-minus").each(function () {
+        $(this).on('click', function () {
             let quantitInput = $(this).siblings('input');
             let currentVal = parseInt(quantitInput.val(), 10) > 1 ? parseInt(quantitInput.val(), 10) - 1 : 1;
             quantitInput.val(currentVal);
-        })});
+        })
+    });
 
-    $(".product-quantity-plus").each(function(){
-        $(this).on('click',function () {
+    $(".product-quantity-plus").each(function () {
+        $(this).on('click', function () {
             let quantitInput = $(this).siblings('input');
             let currentVal = parseInt(quantitInput.val(), 10) + 1;
             quantitInput.val(currentVal);
-        })});
+        })
+    });
     if ($(window).width() < 769) {
-        $('.navbar__item__btn').each(function(){
+        $('.navbar__item__btn').each(function () {
             $(this).on('click', function () {
                 $(this).toggleClass('rotate-180');
                 $(this).parent().siblings('.mega-menu__content').toggleClass('d-block');
