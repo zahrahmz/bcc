@@ -1694,6 +1694,10 @@ select.shipping-method {
     color: #687179;
 }
 
+.text-pre-line{
+    white-space: pre-line;
+}
+
 .validation-error {
     width: 100%;
     margin-top: .25rem;
