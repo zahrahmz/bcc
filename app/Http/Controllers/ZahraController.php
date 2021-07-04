@@ -10,6 +10,6 @@ class ZahraController extends BaseController
     public function index()
     {
         $this->setPageTitle('فروشگاه اینترنتی بی سی سی');
-        return view('site.ZAHRA.certificates');
+        return view('site.ZAHRA.not-found');
     }
 }

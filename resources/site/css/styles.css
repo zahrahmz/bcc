@@ -1698,6 +1698,14 @@ select.shipping-method {
     white-space: pre-line;
 }
 
+.not-found{
+    background-size: cover;
+    margin-bottom: 15px;
+    background: url("https://www.babycottons.com/media/wysiwyg/404.jpg") no-repeat center right;
+    padding-bottom: 143px;
+    padding-top: 138px;
+}
+
 .validation-error {
     width: 100%;
     margin-top: .25rem;
