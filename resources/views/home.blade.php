@@ -5,7 +5,7 @@
         @if(!empty($slides = $sliders[\App\Models\Slider::HOME_TOP]))
             <div class="row mb-5">
                 <div id="mainPageSlider" class="carousel slide col-12" data-ride="carousel" style="max-height:555px">
-                    <ul class="carousel-indicators">
+                    <ul class="carousel-indicators d-none d-sm-flex">
                         @foreach($slides as $key =>  $slide)
                             <li data-target="#mainPageSlider" data-slide-to="{{ $key }}" class="@if($key == 0)active @endif"></li>
                         @endforeach
@@ -64,7 +64,7 @@
             <div class="row mb-5">
                 @foreach($slides as $slide)
                 <a class="col-12 col-md-6 mb-3 mb-md-0" href="{{$slide['link']}}">
-                    <img class="mw-100"
+                    <img class="mw-100 h-auto"
                          src="{{ $slide['image'] }}"
                          width="800"
                          height="500"
